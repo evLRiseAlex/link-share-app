@@ -1,5 +1,5 @@
-import Container from "./index.styled";
 import PropTypes from "prop-types";
+import Container from "./index.styled";
 
 const TextField = (props) => {
   return (
@@ -14,8 +14,8 @@ const TextField = (props) => {
           value={props.value}
           placeholder={props.placeholder}
         />
-        {props.isErrorVisible ? <p>{props.errorChildren}</p> : null}
       </div>
+      {props.isErrorVisible ? <p> {props.errorChildren} </p> : null}
     </Container>
   );
 };

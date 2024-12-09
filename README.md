@@ -6,11 +6,11 @@ A **link-sharing app** built with **Vite** and **React**, designed to provide a 
 
 ## Table of Contents
 
-1. [Project Description](#project-description)
-2. [How to Open the Project (Development Server)](#how-to-open-the-project-development-server)
-3. [How to Build the Project (Production Build)](#how-to-build-the-project-production-build)
-4. [How to Open the Production Build](#how-to-open-the-production-build)
-5. [Contribution](#contribution)
+1. [Project Description](#project-description)  
+2. [How to Open the Project (Development Server)](#how-to-open-the-project-development-server)  
+3. [How to Build the Project (Production Build)](#how-to-build-the-project-production-build)  
+4. [How to Open the Production Build](#how-to-open-the-production-build)  
+5. [Contribution](#contribution)  
 
 ---
 
@@ -24,8 +24,8 @@ A **link-sharing app** built with **Vite** and **React**, designed to provide a 
 
 ### Key Features
 
-- **React**: Enables component-based UI development.
-- **Vite**: Provides an ultra-fast development environment and optimized production builds.
+- **React**: Enables component-based UI development.  
+- **Vite**: Provides an ultra-fast development environment and optimized production builds.  
 
 ---
 
@@ -34,20 +34,17 @@ A **link-sharing app** built with **Vite** and **React**, designed to provide a 
 To run the project locally:
 
 1. Clone the repository:
-
    ```bash
    git clone https://<platform-link>/<your-username>/link-sharing-app.git
    cd link-sharing-app
    ```
 
 2. Install the dependencies:
-
    ```bash
    npm install
    ```
 
 3. Start the development server:
-
    ```bash
    npm run dev
    ```
@@ -64,13 +61,11 @@ To run the project locally:
 To create a production-ready build:
 
 1. Install dependencies (if not already done):
-
    ```bash
    npm install
    ```
 
 2. Build the project:
-
    ```bash
    npm run build
    ```
@@ -84,13 +79,11 @@ To create a production-ready build:
 To serve the production build locally:
 
 1. Navigate to the `/dist` folder:
-
    ```bash
    cd dist
    ```
 
 2. Serve the build using a static file server, such as:
-
    ```bash
    npx serve
    ```
@@ -122,4 +115,4 @@ We welcome contributions to improve the project! Here's how you can contribute:
 
 ---
 
-Happy coding! 🚀
+Happy coding! 🚀 

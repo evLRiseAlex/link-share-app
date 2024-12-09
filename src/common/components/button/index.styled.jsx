@@ -4,14 +4,13 @@ const Container = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-
-  cursor: pointer;
   height: 46px;
   outline: none;
   appearance: none;
   border-radius: 8px;
-  transition: 0.2s ease all;
+  transition: 0.2s ease-in-out all;
   padding: 25px;
+  cursor: pointer;
   border: ${(props) => {
     switch (props.variant) {
       case "fill":
@@ -40,6 +39,7 @@ const Container = styled.button`
         return "var(--button-color-2)";
     }
   }};
+
   &:active {
     background: ${(props) => {
       switch (props.variant) {
@@ -52,7 +52,7 @@ const Container = styled.button`
     box-shadow: ${(props) => {
       switch (props.variant) {
         case "fill":
-          return "0 0 32px #633CFF40";
+          return "var(--box-shadow)";
         case "outline":
           return "none";
       }

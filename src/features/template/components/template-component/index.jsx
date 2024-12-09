@@ -1,12 +1,12 @@
-import Container from "./index.styled";
 import PropTypes from "prop-types";
+import Container from "./index.styled";
 
 const TemplateComponent = (props) => {
-  return <Container>Template Component{props.children}</Container>;
+  return <Container>Our nice template component {props.children}</Container>;
 };
-
-export default TemplateComponent;
 
 TemplateComponent.propTypes = {
   children: PropTypes.element,
 };
+
+export default TemplateComponent;
